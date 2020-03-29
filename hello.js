@@ -152,5 +152,8 @@ Population.prototype.generation = function() {
 };
 
 
-var population = new Population("Hello World", 50); // inicia a população
-population.generation();
+
+function geneticFunciont() {
+  var population = new Population(document.getElementById("input").value, 50); // inicia a população
+  population.generation();
+}
